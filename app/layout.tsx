@@ -45,16 +45,18 @@ export default function RootLayout({
       >
         <nav 
           style={{ backgroundColor: "#f5f5ee" }}
-          className="w-full z-20 flex items-center justify-center gap-16 h-32 text-black font-thin"
+          className="w-full z-20 flex items-center justify-center gap-4 sm:gap-8 md:gap-16 h-20 sm:h-24 md:h-32 text-black font-thin px-4"
         >
           <NavLink href="/me" exact>
             Me
           </NavLink>
           <NavLink href="/software">
-            Software
+            <span className="hidden sm:inline">Software</span>
+            <span className="sm:hidden">Code</span>
           </NavLink>
           <NavLink href="/work_experience">
-            Work Experience
+            <span className="hidden md:inline">Work Experience</span>
+            <span className="md:hidden">Work</span>
           </NavLink>
           <NavLink href="/education">
             Education
@@ -62,7 +64,7 @@ export default function RootLayout({
         </nav>
         {children}
         <footer
-          className="w-full z-20 flex flex-row justify-center items-center h-32"
+          className="w-full z-20 flex flex-row justify-center items-center h-16 sm:h-20 md:h-32"
           style={{ backgroundColor: "#f5f5ee" }}
         >
           <p className="text-black"></p>
