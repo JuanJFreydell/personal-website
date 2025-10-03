@@ -52,7 +52,7 @@ export default function WorkExperience() {
   return (
     <div 
     style={{ backgroundColor: "#f5f5ee" }}
-    className="flex flex-col h-fit w-full justify-center items-center space-between bg-white mx-auto my-auto pt-4 sm:pt-8 text-black px-4 sm:px-8 lg:px-40 py-8 sm:py-16 lg:py-40">
+    className="flex flex-col h-fit w-full justify-center items-center space-between bg-white mx-auto my-auto pt-4 sm:pt-8 text-black px-4 sm:px-8 lg:px-40 py-8 sm:py-16">
         <div className="w-full lg:w-2/3 h-fit flex flex-col items-start justify-center gap-8 sm:gap-12 lg:gap-24 mt-8 sm:mt-12 lg:mt-20"> 
             {experiences.map((experience) => (
                 <div key={experience.Job_title} className="flex flex-col lg:flex-row w-full gap-4 lg:gap-8">

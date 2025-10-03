@@ -19,7 +19,7 @@ export default function Software() {
   return (
     <div 
     style={{ backgroundColor: "#f5f5ee" }}
-    className="flex flex-col h-fit w-full space-between bg-white mx-auto my-auto pt-4 sm:pt-8 text-black px-4 sm:px-8 lg:px-40 py-8 sm:py-16 lg:py-40">
+    className="flex flex-col h-fit w-full space-between bg-white mx-auto my-auto pt-4 sm:pt-8 text-black px-4 sm:px-8 lg:px-40 py-8 sm:py-16">
         <div className="flex flex-col gap-2 my-4 sm:my-8 lg:my-10">
             <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-left">Things I&apos;ve built</h1>
             <h2 className="text-base sm:text-lg font-light opacity-50 text-left">I come up with silly ideas all the time. Here are some I&apos;ve fleshed out more.</h2>
