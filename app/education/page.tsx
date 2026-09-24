@@ -1,14 +1,14 @@
 const education = [
     {
-        degree: "Master's in Computer and Information Technology",
-        short_description: "Current graduate student focusing on computer systems and web technologies.",
+        degree: "Master of Science in Engineering in Computer and Information Systems",
+        short_description: "Current graduate student in Computer and Information Systems.",
         institution: "University of Pennsylvania",
         location: "Philadelphia, PA",
-        start_date: "Fall 2024",
+        start_date: "Fall 2025",
         end_date: "Current",
-        long_description: "Pursuing advanced studies in computer and information technology with focus on modern web systems and computer architecture. Currently enrolled in Internet and Web Systems (Java) and Computer Systems (C) courses.",
+        long_description: "Pursuing advanced studies in computer and information systems through coursework in operating systems, machine learning, distributed systems, cybersecurity, databases, and internet and web systems.",
         gpa: null,
-        courses: ["Internet and Web Systems (Java)", "Computer Systems (C)"]
+        courses: ["Operating Systems", "Machine Learning", "Distributed Systems", "Cybersecurity", "Databases", "Internet and Web Systems"]
     },
     {
         degree: "Master's in Business Administration - Information Technology",
