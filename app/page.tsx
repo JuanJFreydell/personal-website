@@ -6,7 +6,7 @@ export default function Home() {
 
       <div className="w-full lg:w-1/3 flex justify-center mb-8 lg:mb-0">
         <Image 
-          className="rounded-4xl w-full max-w-[300px] sm:max-w-[420px] lg:max-w-[520px] h-auto" 
+          className="rounded-4xl w-full max-w-[300px] sm:max-w-[420px] lg:max-w-[240px] h-auto" 
           src="/juan-running.jpeg" 
           alt="Juan Jose Freydell" 
           width={600} 
