@@ -1,22 +1,22 @@
 
 const projects = [
     {
-        title: "Rendi",
+        title: "rendi.ai",
         short_description: "A trading app for LATAM",
         long_description: "Rendi is a modern trading platform designed specifically for Latin America. It enables users to buy and sell stocks, ETFs, and cryptocurrencies with a simple, intuitive interface. Rendi focuses on accessibility, local payment integrations, and educational resources to empower first-time investors across the region.",
         link: "https://rendi.ai"
     },
     {
-        title: "Tangential Chats",
-        short_description: "UI Chatbot Improvements that you'll loce",
-        long_description: "Have you ever found yourself in a lengthy conversation with a chatbot, struggling to scroll up and down the chat to find a specific response? Tangential makes it easy to manage and navigate your chats through its tangential chats feature.",
-        link: "https://tangential-chat.com"
+        title: "musclecloud.app",
+        short_description: "AI tools for fitness coaching",
+        long_description: "MuscleCloud helps trainers and fitness teams manage workouts, clients, and coaching workflows in one place, with AI-assisted tools for turning training plans into practical, trackable programs.",
+        link: "https://musclecloud.app"
     },
     {
-        title: "Roomy",
-        short_description: "An AI-powered tool for generating room redesigns from photos, tailored to user budgets.",
-        long_description: "Roomy enables users to upload a photo of any room and receive a redesigned version that fits their specified budget. Developed to make interior design more accessible, Roomy leverages AI to provide practical and visually appealing transformations based on user input.",
-        link: "https://roomy-ai.com"
+        title: "worldtexture.com",
+        short_description: "A library of world-inspired textures",
+        long_description: "WorldTexture is a visual collection for discovering and using textures inspired by real materials, places, and surfaces from around the world.",
+        link: "https://worldtexture.com"
     }
 ]
 
@@ -32,7 +32,7 @@ export default function Software() {
 
         <div className="w-full h-fit flex flex-col lg:flex-row justify-start gap-6 sm:gap-8 lg:gap-8 mt-8 sm:mt-12 lg:mt-20"> 
             {projects.map((project) => (
-                <div key={project.title} className="flex flex-col lg:flex-row w-full lg:w-[400px] gap-3 lg:gap-3">
+                <div key={project.title} className="flex flex-col w-full lg:w-[400px] gap-3">
                     <h3 className="text-xl sm:text-2xl font-bold text-left">{project.title}</h3>
                     <div className="flex flex-col gap-2">
                     <p className="text-base sm:text-lg font-semibold text-left">{project.short_description}</p>

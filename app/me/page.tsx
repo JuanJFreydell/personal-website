@@ -2,15 +2,15 @@ import Image from "next/image";
 
 export default function Me() {
   return (
-    <div className="z-10 flex flex-col lg:flex-row min-h-screen w-full justify-center items-center bg-white text-black px-4 py-8 lg:-m-32">
+    <div className="z-10 flex flex-col lg:flex-row min-h-[calc(100vh-5rem)] sm:min-h-[calc(100vh-6rem)] md:min-h-[calc(100vh-8rem)] w-full justify-center items-center bg-white text-black px-4 py-10 sm:py-14 lg:py-20 lg:gap-16">
 
       <div className="w-full lg:w-1/3 flex justify-center mb-8 lg:mb-0">
         <Image 
-          className="rounded-4xl" 
+          className="rounded-4xl w-full max-w-[300px] sm:max-w-[420px] lg:max-w-[520px] h-auto" 
           src="/juan-running.jpeg" 
           alt="Juan Jose Freydell" 
-          width={300} 
-          height={300}
+          width={600} 
+          height={780}
           priority
         />
       </div>
