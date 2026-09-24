@@ -45,7 +45,7 @@ export default function RootLayout({
       >
         <nav 
           style={{ backgroundColor: "#f5f5ee" }}
-          className="w-full z-20 flex items-center justify-center gap-4 sm:gap-8 md:gap-16 h-20 sm:h-24 md:h-32 text-black font-thin px-4"
+          className="w-full z-20 flex items-center justify-center gap-4 sm:gap-8 md:gap-16 h-20 sm:h-24 md:h-16 text-black font-thin px-4"
         >
           <NavLink href="/me" exact>
             Me
